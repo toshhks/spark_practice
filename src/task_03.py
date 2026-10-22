@@ -1,5 +1,5 @@
 from pyspark.sql.functions import sum, desc
-from common import spark, read_table
+from common import read_table
 
 payment = read_table('payment')
 rental = read_table('rental')

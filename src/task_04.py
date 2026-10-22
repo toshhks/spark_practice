@@ -1,4 +1,4 @@
-from common import spark, read_table
+from common import read_table
 
 film = read_table('film')
 inventory = read_table('inventory')

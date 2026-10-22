@@ -1,5 +1,5 @@
 from pyspark.sql.functions import count, desc
-from common import spark, read_table
+from common import read_table
 
 category = read_table('category')
 film_category = read_table('film_category')

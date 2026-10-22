@@ -1,5 +1,5 @@
-from pyspark.sql.functions import count,desc
-from common import spark, read_table
+from pyspark.sql.functions import count, desc
+from common import read_table
 
 rental = read_table('rental')
 inventory = read_table('inventory')
